@@ -58,7 +58,7 @@ Anime-project/
 ├── login.html            # User login page
 └── signup.html           # User registration page
 ```
-🚀 Getting Started
+## Getting Started
 1. Clone the Repository
 Bash
 
