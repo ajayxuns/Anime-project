@@ -1,79 +1,78 @@
-# 🎬 Anime Streaming & Community Platform
+<div align="center">
 
-> A sleek, dark-themed anime streaming and blogging web template built with HTML5, SCSS/CSS3, Bootstrap, and jQuery plugins.<img width="1917" height="1078" alt="Screenshot 2026-08-31 151917" src="https://github.com/user-attachments/assets/faa4095c-5738-4abe-86f7-906a335f5f58" />
-<img width="1911" height="1078" alt="Screenshot 2026-08-31 151853" src="https://github.com/user-attachments/assets/0211910d-627a-4f7d-80ea-a48d41b10cee" />
-<img width="1917" height="917" alt="Screenshot 2026-08-31 151846" src="https://github.com/user-attachments/assets/d0642e68-b740-4abf-90e0-3f51c5e933a7" />
+# ⛩️ ANIME STREAM & COMMUNITY
 
+### *A sleek, high-performance dark anime portal & blogging ecosystem*
 
----
+[![MIT License](https://img.shields.io/badge/License-MIT-e53637.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![Bootstrap 4](https://img.shields.io/badge/Bootstrap_4-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)](https://jquery.com/)
 
-## 📖 Overview
+<br />
 
-A responsive anime streaming UI designed for content discovery, anime catalog browsing, video playback, and community blogging. It features a hero slider, categorized lists (Trending, Popular, Top Views), video watch pages, blog layouts, and user authentication screens (Login / Sign Up).
+<p align="center">
+  <img width="95%" alt="Anime Platform Showcase" src="https://github.com/user-attachments/assets/faa4095c-5738-4abe-86f7-906a335f5f58" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
+</p>
 
----
-
-## ✨ Features
-
-* **Hero Banner Carousel:** Featured anime slider powered by OwlCarousel.
-* **Content Categorization:** Sections for Trending, Recent, Top Views (filtered by day/week/month/year), and genre categories.
-* **Anime Watch & Details Pages:** Dedicated pages for streaming video playback (`plyr.js`) and series overviews.
-* **Community & Blog System:** Multi-page blog layouts including blog listings and detailed post pages.
-* **Authentication UI:** Pre-built forms for user Login and Sign-Up.
-* **Responsive Navigation:** Mobile-friendly menus with SlickNav.
+</div>
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## 📸 Interface Preview
 
-* **Core:** HTML5, CSS3, SCSS/Sass, JavaScript (ES5/ES6)
-* **CSS Framework:** Bootstrap 4
-* **Icons & Fonts:** FontAwesome 4.7, Elegant Icons
-* **Plugins & Utilities:**
-  * **jQuery (v3.3.1)**
-  * **OwlCarousel2:** Smooth sliders and carousels
-  * **Plyr:** HTML5 video and media player
-  * **MixItUp:** Content filtering and sorting
-  * **SlickNav:** Responsive mobile navigation
-  * **Nice Select:** Custom dropdown styling
+<details open>
+<summary><b>Click to expand full UI gallery</b></summary>
+<br />
+
+| 🎬 **Stream Player & Details** | 📰 **Community & Blogs** |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/0211910d-627a-4f7d-80ea-a48d41b10cee" width="100%" alt="Stream Player" /> | <img src="https://github.com/user-attachments/assets/d0642e68-b740-4abf-90e0-3f51c5e933a7" width="100%" alt="Blog Feed" /> |
+
+</details>
 
 ---
 
-## 📁 File Structure
+## ⚡ Core Features
 
-```text
+- 🎭 **Dynamic Hero Showcase** — Featured anime carousel powered by `OwlCarousel2` with smooth transitions.
+- 🎯 **Advanced Categorization** — Real-time filtering via `MixItUp` for Trending, Popular, and Top Views (Day / Week / Month / Year).
+- 📺 **Cinema-Grade Video Playback** — Lightweight, accessible media player integration using `Plyr.js`.
+- ✍️ **Blogging & Community Hub** — Full editorial layouts for community discussions, episode reviews, and news.
+- 🔐 **Authentication Suite** — Pixel-perfect Login and Sign-Up templates styled for dark mode.
+- 📱 **Fluid Mobile UI** — Seamless responsive navigation driven by `SlickNav` and `Bootstrap 4`.
+
+---
+
+## 🛠️ Built With
+
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Markup & Core** | `HTML5` • `JavaScript (ES6+)` | Semantic layouts & core app behaviors |
+| **Styling** | `SCSS/Sass` • `Bootstrap 4` | Modular architecture & flexible responsive grid |
+| **Media Player** | `Plyr.js` | Custom UI for HTML5 streaming |
+| **Interactivity** | `jQuery` • `MixItUp` • `OwlCarousel2` | Dynamic filtering & touch-enabled sliders |
+| **UI Enhancements** | `Nice Select` • `SlickNav` • `FontAwesome 4.7` | Stylized inputs, mobile nav & icon packs |
+
+---
+
+## 📂 Project Architecture
+
+```plaintext
 Anime-project/
-├── css/                  # Compiled stylesheets & vendor CSS
-├── fonts/                # Web fonts (FontAwesome, ElegantIcons)
-├── img/                  # Graphic assets (anime, hero, blog, covers)
-├── js/                   # Vendor libraries & main app scripts
-├── sass/                 # Modular SCSS source partials
-├── videos/               # Demo video files
-├── index.html            # Landing / Homepage
-├── anime-details.html    # Series overview page
-├── anime-watching.html   # Video player page
-├── blog.html             # Blog list page
-├── blog-details.html     # Single blog post page
-├── categories.html       # Genre / category listing
-├── login.html            # User login page
-└── signup.html           # User registration page
-```
-## Getting Started
-1. Clone the Repository
-Bash
-
-git clone https://github.com/ajayxuns/Anime-project.git
-
-2. Run Locally
-
-    Open index.html in your web browser.
-
-    Or run it using the Live Server extension in VS Code.
-
-👤 Author
-
-    GitHub: @ajayxuns
-
-📜 License
-
-This project is open-source and available under the MIT License.
+├── 📁 css/              # Production stylesheets & vendor CSS bundles
+├── 📁 fonts/            # Web fonts (FontAwesome 4.7, ElegantIcons)
+├── 📁 img/              # Platform assets (anime banners, avatars, posters)
+├── 📁 js/               # Plugin bundles & custom initialization scripts
+├── 📁 sass/             # Modular SCSS partials (variables, mixins, components)
+├── 📁 videos/           # Static demo video assets
+│
+├── 🌐 index.html          # Main hub & featured landing
+├── 📺 anime-details.html  # Series overview, ratings & episode listings
+├── 🎥 anime-watching.html # Custom streaming player view
+├── 📑 categories.html     # Filterable catalog & genre explorer
+├── 📰 blog.html           # Community articles & news feed
+├── 📝 blog-details.html   # Rich single article template
+├── 🔑 login.html          # User authentication entry
+└── 🚪 signup.html         # User registration form
